@@ -12,5 +12,6 @@ app.listen(port, () => {
 
 // Create hello world api
 app.get('/hello_world', (req, res) => {
+    console.log('Request recieved')
     res.send('Hello World')
 })
